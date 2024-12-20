@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <input type="text" id="number">
+        <button class="btn btn-danger" onclick=getDataForm()>submit </button>
+        <h3>Mảng</h3>
+        <p id="result-number"></p>
+
+        <h3>Tổng số dương</h3>
+        <button class="btn btn-danger" onclick=sumPositive()>Câu 1 </button>
+        <p id="result-sum-positive"></p>
+        <h3>Số lượng số dương</h3>
+        <button class="btn btn-danger" onclick=countPositive()>Câu 2 </button>
+        <p id="result-count-positive"></p>
+
+        <h3>Số nhỏ nhất trong mảng</h3>
+        <button class="btn btn-danger" onclick=findMinNumber()>Câu 3 </button>
+        <p id="result-min"></p>
+
+        <h3>số dương nhỏ nhất</h3>
+        <button class="btn btn-danger" onclick=findMinPositiveNumber()>Câu 4
+        </button>
+        <p id="result-minPositive"></p>
+        <h3>Số chẵn cuối cùng trong mảng</h3>
+        <button class="btn btn-danger" onclick=finalEven()>Câu 5
+        </button>
+        <p id="result-finalEven"></p>
+        <h3>Swap 2 giá trị trong mảng</h3>
+        <input type="text" id="number1">
+        <input type="text" id="number2">
+        <button class="btn btn-danger" onclick=swapElements()>Câu 6
+        </button>
+        <p id="result-number2"></p>
+        <h3>Sắp xếp mảng tăng dần</h3>
+        <button class="btn btn-danger" onclick=sortArrayAscending()>Câu 7
+        </button>
+        <p id="result-number3"></p>
+        <h3>Số nguyên tố đầu tiên trong mảng</h3>
+        <button class="btn btn-danger" onclick=findFirstPrime()>Câu 8
+        </button>
+        <p id="result8"></p>
+
+        <h3>Tìm số nguyên</h3>
+        <input type="text" id="number4">
+        <button class="btn btn-primary" onclick=getDataForm2()>Nhập mảng số thực
+        </button>
+        <h3>Mảng 2</h3>
+        <p id="soThuc"></p>
+        <button class="btn btn-danger" onclick=countIntegers()>Câu 9
+        </button>
+        <p id="result9"></p>
+        <h3>So sánh số dương và âm</h3>
+        <button class="btn btn-danger" onclick=soSanhDuongVaAm()>Câu 10
+        </button>
+        <p id="result10"></p>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
